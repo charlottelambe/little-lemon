@@ -1,0 +1,18 @@
+@media screen and (min-width: 769px) {
+.hero-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 4rem 0 2rem 0;
+    margin-left: 0;
+    margin-right: 0;
+    grid-column-gap: 4rem;
+}
+.hero-text {
+    grid-column: 1;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 10rem;
+}
+.hero-image {
+    margin-bottom: -6rem;
+}
+}
